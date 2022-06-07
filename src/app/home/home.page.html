@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Camera Share App
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-button expand="block" class="ion-margin" (click)="getPicture()">Take / Get Photo</ion-button>
+  <img [src]="selectedImage?.webPath"/>
+  <ion-button *ngIf="selectedImage" (click)="share()" expand="block" class="ion-margin">Share via WhatsApp</ion-button>
+</ion-content>

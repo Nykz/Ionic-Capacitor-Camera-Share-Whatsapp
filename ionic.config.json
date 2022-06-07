@@ -1,0 +1,7 @@
+{
+  "name": "camera-share-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
